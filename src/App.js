@@ -4,9 +4,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
-          First-project
-        </p>
+        <h2>NTech</h2>
+        
       </header>
     </div>
   );
