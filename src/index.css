@@ -31,3 +31,8 @@ code {
   text-decoration: none;
   color: #ffffff;
 }
+
+.bg-upload {
+  background: url(../images/upload.svg) no-repeat center ;
+  background-size: 50px;
+}
