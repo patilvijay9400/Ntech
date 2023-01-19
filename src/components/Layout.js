@@ -19,11 +19,8 @@ const Layout = () => {
                     </ul>
                 </nav>
             </div>
-            <div className="col-10 px-0">
-                <div className="p-4 bg-primary"></div>
-                <div className="p-2">
+            <div className="col-10 p-3">
                     <Outlet />
-                </div>
             </div>
         </div>
     )
