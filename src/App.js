@@ -4,6 +4,9 @@ import Login from "./components/Login";
 import Layout from "./components/Layout";
 import Profile from './components/Profile';
 import Dashboard from './components/Dashboard';
+import Users from './components/Users';
+import CreateUser from './components/CreateUser';
+import UpdateUser from './components/UpdateUser';
 
 function App() {
   return (
@@ -13,9 +16,17 @@ function App() {
         <Route path="layout" element={<Layout />}>
           <Route index element={<Dashboard />} />
           <Route path="profile" element={<Profile />} />
+          <Route path="user" element={<Users />} />
+          <Route path="create" element={<CreateUser />} />
+          <Route path="update/:id"
+            render={props => (
+             < UpdateUser {...props}/>
+          )}
+           >
         </Route>
-      </Routes>
-    </BrowserRouter>
+      </Route>
+    </Routes>
+    </BrowserRouter >
 
   );
 }
