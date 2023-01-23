@@ -11,6 +11,9 @@ const Layout = () => {
                             <Link to="/layout">Home</Link>
                         </li>
                         <li>
+                            <Link to="user">Users</Link>
+                        </li>
+                        <li>
                             <Link to="profile">Profile</Link>
                         </li>
                         <li>
@@ -20,7 +23,7 @@ const Layout = () => {
                 </nav>
             </div>
             <div className="col-10 p-3">
-                    <Outlet />
+                <Outlet />
             </div>
         </div>
     )

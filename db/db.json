@@ -1,0 +1,50 @@
+{
+  "login": [
+    { "email": "pavan123@test.com", "password": "Pavan@123" },
+    { "email": "suarj111@test.com", "password": "Suraj@123" }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Pavan",
+      "email": "pavan123@test.com",
+      "companyName": "Softlink international",
+      "position": "QA"
+    },
+    {
+      "id": 2,
+      "name": "Suraj",
+      "email": "suarj111@test.com",
+      "companyName": "Heaptrace",
+      "position": "Developer"
+    },
+    {
+      "id": 3,
+      "name": "Nitin",
+      "email": "nitin123@test.com",
+      "companyName": "Heaptrace",
+      "position": "QA"
+    },
+    {
+      "id": 7,
+      "name": "Sourabh",
+      "email": "sourabh123@test.com",
+      "companyName": "Softlink international",
+      "position": "Front-end developer"
+    },
+    {
+      "name": "Vijay",
+      "email": "vijay123@test.com",
+      "companyName": "Heaptrace",
+      "position": "Designer",
+      "id": 8
+    },
+    {
+      "name": "Harsh",
+      "email": "harsh12@test.com",
+      "companyName": "heaptrace",
+      "position": "full stack developer",
+      "id": 10
+    }
+  ]
+}
