@@ -18,14 +18,17 @@ function App() {
           <Route path="profile" element={<Profile />} />
           <Route path="user" element={<Users />} />
           <Route path="create" element={<CreateUser />} />
-          <Route path="update/:id"
-            render={props => (
-             < UpdateUser {...props}/>
-          )}
-           >
+          <Route path="update" element={<UpdateUser />} />
+          {/* <Route path="update/:id"
+            render={props => {
+              console.log(props)
+              return < UpdateUser {...props} />
+            }
+            }
+          >
+          </Route> */}
         </Route>
-      </Route>
-    </Routes>
+      </Routes>
     </BrowserRouter >
 
   );
