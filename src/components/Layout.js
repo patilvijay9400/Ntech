@@ -5,7 +5,7 @@ const Layout = () => {
     <div className="row mx-0">
       <div className="col-2 bg-primary vh-100 pt-2">
         <nav>
-          <h2 className="text-center text-white">NTech</h2>
+          <h2 className="text-center text-white">Nanaware Tech</h2>
           <ul className="list-unstyled sidemenu">
             <li>
               <Link to="/layout">Home</Link>
