@@ -56,7 +56,7 @@ const Login = () => {
           <input type="checkbox" className="form-check-input" id="exampleCheck1" />
           <label className="form-check-label" for="exampleCheck1">Check me out</label>
         </div> */}
-        <button onClick={() => { loginForm() }} className='btn btn-primary'>Submit</button>
+        <Link to={"layout"} onClick={() => { loginForm() }} className='btn btn-primary'>Submit</Link>
       </form>
     </div>
   )

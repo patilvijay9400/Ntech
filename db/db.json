@@ -1,7 +1,13 @@
 {
   "login": [
-    { "email": "pavan123@test.com", "password": "Pavan@123" },
-    { "email": "suarj111@test.com", "password": "Suraj@123" }
+    {
+      "email": "pavan123@test.com",
+      "password": "Pavan@123"
+    },
+    {
+      "email": "suarj111@test.com",
+      "password": "Suraj@123"
+    }
   ],
   "users": [
     {

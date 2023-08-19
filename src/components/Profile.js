@@ -79,7 +79,7 @@ const Profile = () => {
         <div className="accordion-item p-2 border">
           <div className="accordion-title d-flex justify-content-between" onClick={() => setIsActive1(!isActive1)}>
             <h6>Address Details</h6>
-            <div>{isActive ? '-' : '+'}</div>
+            <div>{isActive1 ? '-' : '+'}</div>
           </div>
           {isActive1 && <div className="accordion-content">
             content
